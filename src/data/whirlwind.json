@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lvl1-15",
+    "nivel": "Niveles 1 a 15",
+    "descripcion": "El objetivo inicial es desbloquear tus habilidades principales de daño. Usa cualquier arma de dos manos con buen daño bruto.",
+    "dondeBuscar": "Haz la Campaña principal o Eventos de Legión si te saltaste la campaña.",
+    "habilidades": [
+      "Arremetida (1) -> Arremetida Reforzada",
+      "Remolino (5) -> Remolino Furioso -> Remolino Violento"
+    ],
+    "equipo": [
+      {
+        "slot": "Arma 2M (Corte)",
+        "item": "Daño Físico y Fuerza"
+      },
+      {
+        "slot": "Casco",
+        "item": "Vida máxima y Fuerza"
+      }
+    ]
+  },
+  {
+    "id": "lvl15-30",
+    "nivel": "Niveles 15 a 30",
+    "descripcion": "En este punto necesitamos generar furia constantemente para no dejar de girar. Añadiremos nuestros Gritos.",
+    "dondeBuscar": "Mareas Infernales (Helltides) para abrir cofres de Misterios. Aprovecha para sacar niveles rápido.",
+    "habilidades": [
+      "Grito de Convocatoria (1) -> Grito Táctico",
+      "Grito de Guerra (1) -> Grito de Guerra Poderoso",
+      "Piel de Hierro (1) -> Piel de Hierro Táctica"
+    ],
+    "equipo": [
+      {
+        "slot": "Anillo 1",
+        "item": "Aspecto de Furia Ecosonante (Genera furia al gritar)"
+      },
+      {
+        "slot": "Guantes",
+        "item": "+Rangos a Remolino y Velocidad de Ataque"
+      }
+    ]
+  },
+  {
+    "id": "lvl30-50",
+    "nivel": "Niveles 30 a 50",
+    "descripcion": "Nuestra build ya toma mucha forma. Activa Ira del Vesánico en Jefes o Élites pesados para derretirlos.",
+    "dondeBuscar": "Terminar la mazmorra de límite (Capstone Dungeon) de la Catedral de la Luz para pasar al Nivel de Mundo 3.",
+    "habilidades": [
+      "Ira del Vesánico (Habilidad Máxima)",
+      "Pasiva Clave: Sin Freno",
+      "Grito Desafiante (1)"
+    ],
+    "equipo": [
+      {
+        "slot": "Amuleto",
+        "item": "Aspecto de los Torbellinos de Polvo"
+      },
+      {
+        "slot": "Arma 2M (Maza)",
+        "item": "Aspecto de Ira Creciente"
+      },
+      {
+        "slot": "Pechera",
+        "item": "Armadura y mucha Reducción de Daño"
+      }
+    ]
+  },
+  {
+    "id": "lvl50-plus",
+    "nivel": "Niveles 50 a 60 (Pre-Paragón)",
+    "descripcion": "Prepárate para entrar a Tormento. Aquí empieza a importar mucho la sinergia de los Torbellinos de Polvo con el Remolino.",
+    "dondeBuscar": "Calabozos de Pesadilla nivel bajo y Mareas Infernales para buscar equipo Sagrado/Ancestral.",
+    "habilidades": [
+      "Maximizar Grito de Convocatoria (5/5)",
+      "Maximizar Grito Desafiante (5/5)"
+    ],
+    "equipo": [
+      {
+        "slot": "Casco",
+        "item": "Cimera del Arlequín (Shako) si tienes muchísima suerte"
+      },
+      {
+        "slot": "Arma 1M (Espadas)",
+        "item": "Aspecto del Torbellino Feroz"
+      },
+      {
+        "slot": "Botas",
+        "item": "Aspecto del Caminante Fantasmal (Movimiento rápido)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,449 @@
+{
+  "clases": [
+    "Bárbaro",
+    "Nigromante",
+    "Hechicero",
+    "Pícaro",
+    "Druida",
+    "Espiritualista"
+  ],
+  "tiposBuild": [
+    "Leveo (1-60)",
+    "Juego Tardío (Endgame)",
+    "Jefes (Bossing)",
+    "Pushear Fosos (Pit)"
+  ],
+  "builds": {
+    "Bárbaro": {
+      "Leveo (1-60)": [
+        {
+          "nombre": "Bárbaro de Remolino (Whirlwind)",
+          "guia": [
+            {
+              "id": "lvl1-15",
+              "nivel": "Niveles 1 a 15",
+              "descripcion": "El objetivo inicial es desbloquear tus habilidades principales de daño.",
+              "estrategia": "Usa Arremetida (Lunging Strike) para saltar al enemigo y generar Furia. Cuando tengas la burbuja llena, presiona Remolino (Whirlwind) y no lo sueltes hasta barrer la pantalla.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                }
+              ],
+              "dondeBuscar": "Haz la Campaña principal o Eventos de Legión si te saltaste la campaña.",
+              "habilidades": [
+                "Arremetida (1) -> Arremetida Reforzada",
+                "Remolino (5) -> Remolino Furioso -> Remolino Violento"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma 2M (Corte)",
+                  "item": "Daño Físico y Fuerza",
+                  "dondeCae": "Drop general (Mundo abierto)"
+                },
+                {
+                  "slot": "Casco",
+                  "item": "Vida máxima y Fuerza",
+                  "dondeCae": "Cofres de eventos"
+                }
+              ]
+            },
+            {
+              "id": "lvl15-30",
+              "nivel": "Niveles 15 a 30",
+              "descripcion": "Necesitamos generar furia constantemente para no dejar de girar.",
+              "estrategia": "Antes de entrar al combate, activa tus Gritos (Convocatoria y Guerra). Esto te dará velocidad y Furia infinita por unos segundos. Entra girando y usa Piel de Hierro si tu vida baja del 50%.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                },
+                {
+                  "tecla": "2 / Y",
+                  "habilidad": "Grito de Guerra"
+                },
+                {
+                  "tecla": "3 / B",
+                  "habilidad": "Piel de Hierro"
+                }
+              ],
+              "dondeBuscar": "Mareas Infernales (Helltides) para abrir cofres de Misterios.",
+              "habilidades": [
+                "Grito de Convocatoria (1) -> Grito Táctico",
+                "Grito de Guerra (1) -> Grito de Guerra Poderoso",
+                "Piel de Hierro (1) -> Piel de Hierro Táctica"
+              ],
+              "equipo": [
+                {
+                  "slot": "Anillo 1",
+                  "item": "Aspecto de Furia Ecosonante (Genera furia al gritar)",
+                  "dondeCae": "Calabozos de Fractured Peaks"
+                },
+                {
+                  "slot": "Guantes",
+                  "item": "+Rangos a Remolino y Velocidad de Ataque",
+                  "dondeCae": "Drop general"
+                }
+              ]
+            },
+            {
+              "id": "lvl30-50",
+              "nivel": "Niveles 30 a 50",
+              "descripcion": "Nuestra build ya toma mucha forma. Entra a Nivel de Mundo 3.",
+              "estrategia": "Mantén tus tres gritos activos en rotación para no perder la Furia. Usa 'Ira del Vesánico' (Wrath of the Berserker) EXCLUSIVAMENTE contra Jefes o ÉLITES con resistencia.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                },
+                {
+                  "tecla": "2 / Y",
+                  "habilidad": "Grito de Guerra"
+                },
+                {
+                  "tecla": "3 / B",
+                  "habilidad": "Grito Desafiante"
+                },
+                {
+                  "tecla": "4 / RT",
+                  "habilidad": "Ira del Vesánico"
+                }
+              ],
+              "dondeBuscar": "Terminar la mazmorra de límite (Capstone Dungeon).",
+              "habilidades": [
+                "Ira del Vesánico (Habilidad Máxima)",
+                "Pasiva Clave: Sin Freno",
+                "Grito Desafiante (1)"
+              ],
+              "equipo": [
+                {
+                  "slot": "Amuleto",
+                  "item": "Aspecto de los Torbellinos de Polvo",
+                  "dondeCae": "Jefe: Grigoire o Extracción de Legendarios"
+                },
+                {
+                  "slot": "Arma 2M (Maza)",
+                  "item": "Aspecto de Ira Creciente",
+                  "dondeCae": "Drop general"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Espiritualista": {
+      "Leveo (1-60)": [
+        {
+          "nombre": "Espiritualista S-Tier Mocked 1",
+          "guia": [
+            {
+              "id": "lvl1-15-mock",
+              "nivel": "Niveles 1 a 15 (Generado Automáticamente por Error 503)",
+              "descripcion": "Los servidores de IA están saturados, así que generamos esta estructura de respaldo.",
+              "estrategia": "Inicia el combate lanzando tu habilidad básica para generar recurso, luego gasta todo en tu habilidad principal.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                }
+              ],
+              "dondeBuscar": "Campaña Principal",
+              "habilidades": [
+                "Habilidad Básica (1)",
+                "Habilidad Principal (5)"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma",
+                  "item": "Mayor daño posible",
+                  "dondeCae": "Monstruos de mundo abierto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Espiritualista A-Tier Mocked 2",
+          "guia": [
+            {
+              "id": "lvl1-15-mock",
+              "nivel": "Niveles 1 a 15 (Generado Automáticamente por Error 503)",
+              "descripcion": "Los servidores de IA están saturados, así que generamos esta estructura de respaldo.",
+              "estrategia": "Inicia el combate lanzando tu habilidad básica para generar recurso, luego gasta todo en tu habilidad principal.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                }
+              ],
+              "dondeBuscar": "Campaña Principal",
+              "habilidades": [
+                "Habilidad Básica (1)",
+                "Habilidad Principal (5)"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma",
+                  "item": "Mayor daño posible",
+                  "dondeCae": "Monstruos de mundo abierto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Espiritualista Ráfaga de Plumas",
+          "guia": [
+            {
+              "id": "endgame-inicio",
+              "nivel": "Nivel 70 - Tormento 1 (Inicio de Juego Tardío)",
+              "descripcion": "Configuración inicial de juego tardío para el Espiritualista enfocada en transformar Ráfaga de plumas en una habilidad básica sin coste de Vigor mediante la Vara de Kepeleke, rellenando el recurso instantáneamente con Eco de Kwatli.",
+              "estrategia": "1. Mantén activos los beneficios de Devastador, Azote y Piel tóxica en todo momento.\n2. Lanza El Protector para atrapar y agrupar enemigos, aplicar Derribo y generar acumulaciones de Decisión.\n3. Dispara Ráfaga de plumas repetidamente sobre el grupo de enemigos hasta eliminarlos.\n4. Usa Tajo evasivo para desplazarte rápidamente hacia el siguiente grupo y repite la rotación.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Tajo evasivo"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Ráfaga de plumas"
+                },
+                {
+                  "tecla": "1 / RT",
+                  "habilidad": "Devastador"
+                },
+                {
+                  "tecla": "2 / LT",
+                  "habilidad": "Azote"
+                },
+                {
+                  "tecla": "3 / X",
+                  "habilidad": "Piel tóxica"
+                },
+                {
+                  "tecla": "4 / Y",
+                  "habilidad": "El Protector"
+                }
+              ],
+              "dondeBuscar": "El Foso de los Artífices, Mareas Infernales, Mazmorras de Pesadilla y Jefes de Tormento 1.",
+              "habilidades": [
+                "Ráfaga de plumas",
+                "Tajo evasivo",
+                "Devastador",
+                "Azote",
+                "Piel tóxica",
+                "El Protector"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma de bastón",
+                  "item": "Vara de Kepeleke",
+                  "dondeCae": "Drop general / Jefes de Tormento"
+                },
+                {
+                  "slot": "Casco",
+                  "item": "Armonía de Ebewaka",
+                  "dondeCae": "Drop general / Jefes de Tormento"
+                },
+                {
+                  "slot": "Amuleto",
+                  "item": "Eco de Kwatli",
+                  "dondeCae": "Drop general"
+                },
+                {
+                  "slot": "Anillo 1",
+                  "item": "Anillo de cielos sin estrellas",
+                  "dondeCae": "Jefes Míticos (Duriel, Andariel)"
+                }
+              ]
+            },
+            {
+              "id": "endgame-avanzado",
+              "nivel": "Juego Tardío Avanzado (Tormento 4 y Empuje en El Foso)",
+              "descripcion": "Versión optimizada al máximo con objetos Míticos Únicos, el conjunto Phoba de la multitud para convocar espíritus definitivos y gemas de Esquirlas abisales de alma para alcanzar el máximo daño crítico a distancia.",
+              "estrategia": "Agrupa a todos los monstruos en pantalla usando El Protector combinado con Hesha e Kesungi. Asegúrate de mantener activas tus habilidades de apoyo (Devastador, Azote y Piel tóxica). Rocía proyectiles desde una posición segura a larga distancia con Ráfaga de plumas, garantizando golpes críticos en cada ataque gracias a la Reducción de Coste de Recursos extrema (que simula un mayor consumo de Vigor para la Vara de Kepeleke).",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Tajo evasivo"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Ráfaga de plumas"
+                },
+                {
+                  "tecla": "1 / RT",
+                  "habilidad": "Devastador"
+                },
+                {
+                  "tecla": "2 / LT",
+                  "habilidad": "Azote"
+                },
+                {
+                  "tecla": "3 / X",
+                  "habilidad": "Piel tóxica"
+                },
+                {
+                  "tecla": "4 / Y",
+                  "habilidad": "El Protector"
+                }
+              ],
+              "dondeBuscar": "El Foso (niveles altos de empuje), Jefes Supremos de Tormento 4 y Cubo Horádrico.",
+              "habilidades": [
+                "Ráfaga de plumas",
+                "Tajo evasivo",
+                "Devastador",
+                "Azote",
+                "Piel tóxica",
+                "El Protector"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma de bastón",
+                  "item": "Vara de Kepeleke (Mítico/Ancestral con Afijos Superiores)",
+                  "dondeCae": "Jefes Míticos / Transmutación del Cubo Horádrico"
+                },
+                {
+                  "slot": "Anillo 1",
+                  "item": "Anillo de cielos sin estrellas",
+                  "dondeCae": "Jefes Míticos (Duriel, Andariel)"
+                },
+                {
+                  "slot": "Casco",
+                  "item": "Armonía de Ebewaka",
+                  "dondeCae": "Jefes de Tormento"
+                },
+                {
+                  "slot": "Pantalones",
+                  "item": "Temeridad",
+                  "dondeCae": "Drop general en Tormento"
+                },
+                {
+                  "slot": "Anillo 2",
+                  "item": "Piedra de Jordán / Hesha e Kesungi",
+                  "dondeCae": "Jefes de Tormento"
+                },
+                {
+                  "slot": "Ranuras de Joyería",
+                  "item": "Esquirla abisal de Fuego infernal, Esquirla abisal de la Piedra del alma negra, Esquirla abisal de Dolor",
+                  "dondeCae": "Contenido de la Temporada 15"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Espiritualista Toque de la Muerte",
+          "guia": [
+            {
+              "id": "lvl1-15-mock",
+              "nivel": "Niveles 1 a 15 (Generado Automáticamente por Error 503)",
+              "descripcion": "Los servidores de IA están saturados, así que generamos esta estructura de respaldo.",
+              "estrategia": "Inicia el combate lanzando tu habilidad básica para generar recurso, luego gasta todo en tu habilidad principal.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                }
+              ],
+              "dondeBuscar": "Campaña Principal",
+              "habilidades": [
+                "Habilidad Básica (1)",
+                "Habilidad Principal (5)"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma",
+                  "item": "Mayor daño posible",
+                  "dondeCae": "Monstruos de mundo abierto"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Espiritualista Mano Aplastante",
+          "guia": [
+            {
+              "id": "lvl1-15-mock",
+              "nivel": "Niveles 1 a 15 (Generado Automáticamente por Error 503)",
+              "descripcion": "Los servidores de IA están saturados, así que generamos esta estructura de respaldo.",
+              "estrategia": "Inicia el combate lanzando tu habilidad básica para generar recurso, luego gasta todo en tu habilidad principal.",
+              "barraDeAccion": [
+                {
+                  "tecla": "Clic Izquierdo",
+                  "habilidad": "Arremetida"
+                },
+                {
+                  "tecla": "Clic Derecho",
+                  "habilidad": "Remolino"
+                },
+                {
+                  "tecla": "1 / X",
+                  "habilidad": "Grito de Convocatoria"
+                }
+              ],
+              "dondeBuscar": "Campaña Principal",
+              "habilidades": [
+                "Habilidad Básica (1)",
+                "Habilidad Principal (5)"
+              ],
+              "equipo": [
+                {
+                  "slot": "Arma",
+                  "item": "Mayor daño posible",
+                  "dondeCae": "Monstruos de mundo abierto"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
