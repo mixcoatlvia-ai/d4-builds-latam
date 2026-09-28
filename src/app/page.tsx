@@ -34,7 +34,7 @@ export default function Home() {
     localStorage.setItem("d4-checklist", JSON.stringify(nuevoChecklist));
   };
 
-  const buildsDisponibles = D4_DATA.builds[clase as keyof typeof D4_DATA.builds]?.[tipoBuild] || [];
+  const buildsDisponibles: any[] = (D4_DATA.builds as any)[clase]?.[tipoBuild] || [];
 
   // ==================== LÓGICA INDIVIDUAL ====================
   const handleProcesarBuild = async (e: React.FormEvent) => {

@@ -71,7 +71,8 @@ export async function POST(req: Request) {
         }
       });
 
-      let jsonResponse = response.text.trim();
+      const text = response.text || "";
+      let jsonResponse = text.trim();
       if (jsonResponse.startsWith('```json')) {
         jsonResponse = jsonResponse.replace(/^```json\n/, '').replace(/\n```$/, '');
       }

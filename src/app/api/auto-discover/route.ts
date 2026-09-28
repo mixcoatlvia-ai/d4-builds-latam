@@ -64,7 +64,8 @@ export async function POST(req: Request) {
         config: { systemInstruction: SYSTEM_INSTRUCTION, temperature: 0.1 }
       });
 
-      let jsonResponse = response.text.trim();
+      const text = response.text || "";
+      let jsonResponse = text.trim();
       if (jsonResponse.startsWith('```json')) {
         jsonResponse = jsonResponse.replace(/^```json\n/, '').replace(/\n```$/, '');
       }
